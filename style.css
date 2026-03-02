@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 /* common css */
-
+img {
+    width: 100%;
+}
 .work-sans{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -12,6 +14,7 @@
 .display_flex{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .btn{
     font-size: 16px;
@@ -22,6 +25,12 @@
     border: none;
     border-radius: 5px;
     margin: 32px 0 160px  0;
+}
+ul {
+    list-style-type: none;
+}
+i{
+    color: green
 }
 /* main css */
 header{
@@ -50,4 +59,36 @@ header{
     line-height: 26px;
     font-weight: 300px;
     color:#444343
+}
+#profile{
+    width: 67%;
+    max-width: 1072px;
+    margin: 0 auto;
+}
+#profile .profile_container{
+    gap: 87px;
+}
+#profile .profile_img img{
+    width: 415px;   
+}
+#profile .experience{
+    width: 416px;
+}
+.experience .profile_heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.experience .profile_details{
+    font-size: 16px;
+    font-weight: 200px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.experience  ul li {
+    font-size: 16px;
+    line-height: 26px;
+    color:#444343;
 }
